@@ -7,7 +7,7 @@
 		<title>reveal.js</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/white.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -20,12 +20,274 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+
+		<style media="screen">
+			img {
+				border-width: 0px !important;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+
+				<section>
+					EDDE Platform Future State
+				</section>
+
+				<section>
+					<section>
+						current state<br>
+						(tock)
+
+					</section>
+					<section>
+						<img src="./lib/img/pi-11-1.png">
+					</section>
+					<section>
+						<img src="./lib/img/pi11-2.png">
+					</section>
+					<section>
+						<img src="./lib/img/pi11-3.png">
+					</section>
+					<section>
+						<img src="./lib/img/pi11-4.png">
+					</section>
+				</section>
+
+
+				<section>
+					<section>
+						<p>search updates <br>(tick)</p>
+						<!-- <img src="./lib/img/search.png" width='50%'> -->
+
+					</section>
+					<section>
+						<img src="./lib/img/single-search.png">
+					</section>
+					<section>
+						<!-- <img src="./lib/img/all-results.png" width='20%'> -->
+						<img src="./lib/img/search-1.png">
+					</section>
+					<section>
+						<!-- <img src="./lib/img/img-modal.png"> -->
+						<img src="./lib/img/search-2.png">
+					</section>
+					<section>
+						<!-- <img src="./lib/img/mobile-search.png" width='6%'> -->
+						<img src="./lib/img/search-3.png">
+					</section>
+					<section>
+						<!-- <img src="./lib/img/mobile-img.png"> -->
+						<img src="./lib/img/search-4.png">
+					</section>
+
+					<!-- <section>
+						<img src="./lib/img/map-select.png">
+					</section> -->
+					<section>
+						<img src="./lib/img/theme-1.png">
+					</section>
+					<!-- <section>
+						<img src="./lib/img/theme-pan.png">
+					</section> -->
+					<section>
+						<img src="./lib/img/theme-rerender.png">
+					</section>
+
+					<section>
+						<p>in progress</p>
+						<hr>
+						<ul>
+							<li>tables</li>
+							<li>webpages</li>
+							<li>images</li>
+							<li>viz</li>
+						</ul>
+					</section>
+				</section>
+
+
+				<section>
+					<!-- <section>
+						<p>the approach</p>
+						<hr>
+						<ol>
+							<li>replace</li>
+							<li>discover</li>
+							<li>developer</li>
+							<li>integration</li>
+							<li>standards</li>
+						</ol>
+
+					</section> -->
+					<section>
+						so what's going on behind the scenes?
+					</section>
+
+					<!-- <section>
+						step back to first principles
+						<hr>
+						<ul>
+							<li>what - identify customer driven solution</li>
+							<li>why - to complete the data lifecycle</li>
+							<li>how - iterative intent-model process</li>
+						</ul>
+					</section> -->
+
+					<section>
+							<img src="./lib/img/detailed-process.png" width="30%">
+					</section>
+
+					<!-- <section>
+						<p>what we need</p>
+						<hr>
+						<ul>
+							<li>powerful search experience</li>
+							<li>app replacement engine</li>
+							<li>3<sup style="font-size:.5em">rd</sup> party adoption</li>
+							<li>census.gov integration</li>
+							<li>enforce standards</li>
+						</ul>
+					</section> -->
+
+					<section>
+						but what does this get us?
+					</section>
+
+					<section>
+						<!-- <p>moving parts</p> -->
+							<img src="./lib/img/edde-overview.png">
+					</section>
+					<section>
+						how do these parts fit together?
+					</section>
+					<section>
+							<img src="./lib/img/edde-engine.png">
+					</section>
+				</section>
+
+				<section>
+					<section>
+						pattern library
+						<br>
+						<img src="./lib/img/pattern-library.png" alt="" width="50%" style="box-shadow:none">
+					</section>
+					<section>
+							<img src="./lib/img/pl-1.png" alt="">
+						<!-- <a href="https://standards.usa.gov/components/" target="_blank">census web design standards</a> -->
+					</section>
+					<section>
+							<img src="./lib/img/pl-2.png" alt="">
+					</section>
+					<section>
+							<img src="./lib/img/dds-1.png" alt="" width="75%">
+					</section>
+					<section>
+						<a href="https://lukad03.github.io/data-design-standards-docs/components/charts/#area-charts" target="_blank">
+							<img src="./lib/img/dds-2.png" alt="" width="75%">
+						</a>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						EDDE developer
+						<br>
+						<img src="./lib/img/developer.png" alt="" width="50%" style="box-shadow:none">
+					</section>
+					<section>
+						<img src="./lib/img/data-landing.png" width='25%'>
+					</section>
+					<section>
+						<img src="./lib/img/dev-landing.png" width='30%'>
+					</section>
+					<section>
+						<img src="./lib/img/docs-detail.png" width='50%'>
+					</section>
+					<section>
+						<img src="./lib/img/sandbox-detail.png" width='50%'>
+					</section>
+					<section>
+						<img src="./lib/img/status-landing.png" width='70%'>
+					</section>
+				</section>
+
+
+				<section>
+					<section>
+						EDDE discover
+						<br>
+						<img src="./lib/img/discovery.png" alt="" width="50%" style="box-shadow:none">
+					</section>
+					<section>
+						<!-- <img src="./lib/img/geo-page.png" width='25%'> -->
+						<img src="./lib/img/geo-1.png">
+					</section>
+					<section>
+						<!-- <img src="./lib/img/share-modal.png"> -->
+						<img src="./lib/img/geo-2.png">
+					</section>
+					<section>
+						<!-- <img src="./lib/img/embed-graph.png"> -->
+						<img src="./lib/img/geo-3.png">
+					</section>
+
+					<!-- <section>
+						<img src="./lib/img/mobile-profile.png" width='5%'>
+					</section>
+					<section>
+						<img src="./lib/img/geoMobile-embed.png">
+					</section> -->
+				</section>
+
+
+
+
+				<section>
+					<section>
+						census.gov integration
+					</section>
+					<section>
+						<img src="./lib/img/Ed-attain-orig.png" alt="">
+					</section>
+					<section>
+						<img src="./lib/img/ed-attain-ad.png" alt="">
+					</section>
+					<section>
+						<img src="./lib/img/ed-attain-all.png" alt="" width="70%">
+					</section>
+					<section>
+						<img src="./lib/img/censusGov-int.png" alt="">
+					</section>
+					<section>
+						<img src="./lib/img/disseminationView.png" alt="" width="90%">
+					</section>
+					<section>
+						<img src="./lib/img/pelosi-orig.png" alt="" width="85%">
+					</section>
+					<section>
+						<img src="./lib/img/pelosi-mobile.png" alt="" width="85%">
+					</section>
+					<section>
+						<img src="./lib/img/pelosi-full.png" alt="" width="85%">
+					</section>
+					<section>
+						<img src="./lib/img/pelosi-popup.png" alt="" width="85%">
+					</section>
+					<section>
+						<img src="./lib/img/google-orig.png" alt="" width="85%">
+					</section>
+					<section>
+						<img src="./lib/img/google-future.png" alt="" width="85%">
+					</section>
+				</section>
+
+
+				<section>
+						<img src="./lib/img/arch.png" width="45%">
+				</section>
+
 			</div>
 		</div>
 
